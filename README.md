@@ -1,4 +1,4 @@
-# DO NOT USE: UNDER DEVELOPMENT
+## USE AT YOUR OWN RISK: UNDER DEVELOPMENT
 
 # Laravel Turbo Request.JS
 
@@ -12,11 +12,9 @@ Add a Login-url metatag in the head-section of your template:
 <meta name="Login-url" content="{{ route('login') }}">
 ```
 
-## Asset Pipeline
-
-Install the [requestjs-laravel turbo](https://github.com/ekrist1/requestjs.js) gem and follow the step described there.
-
 ## Webpacker/Esbuild
+
+_Request.js for Laravel is not published to npmjs yet. Install using the full github url._
 
 ### npm
 ```
@@ -186,7 +184,7 @@ Returns true if the response has a `401` status code.
 
 ### authenticationURL
 
-Returns the value contained in the `WWW-Authenticate` header.
+Returns the value contained in the `Login-url` header.
 
 ### contentType
 
