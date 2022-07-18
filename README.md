@@ -7,8 +7,10 @@ Laravel Turbo Request.JS encapsulates the logic to send by default some headers 
 # Install
 
 ## Laravel config
-Add a Login-url metatag in the head-section of your template
+Add a Login-url metatag in the head-section of your template:
+```
 <meta name="Login-url" content="{{ route('login') }}">
+```
 
 ## Asset Pipeline
 
