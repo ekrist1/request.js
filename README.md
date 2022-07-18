@@ -1,10 +1,14 @@
-#DO NOT USE: UNDER DEVELOPMENT
+# DO NOT USE: UNDER DEVELOPMENT
 
 # Laravel Turbo Request.JS
 
 Laravel Turbo Request.JS encapsulates the logic to send by default some headers that are required by Laravel Turbo Hotwire applications like the `X-CSRF-Token`.
 
 # Install
+
+## Laravel config
+Add a Login-url metatag in the head-section of your template
+<meta name="Login-url" content="{{ route('login') }}">
 
 ## Asset Pipeline
 
