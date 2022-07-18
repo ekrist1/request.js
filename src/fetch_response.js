@@ -24,7 +24,7 @@ export class FetchResponse {
   }
 
   get authenticationURL () {
-    return this.response.headers.get('WWW-Authenticate')
+    return this.response.headers.get('Login-url')
   }
 
   get contentType () {
