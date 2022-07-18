@@ -1,22 +1,24 @@
-# Rails Request.JS
+#DO NOT USE: UNDER DEVELOPMENT
 
-Rails Request.JS encapsulates the logic to send by default some headers that are required by rails applications like the `X-CSRF-Token`.
+# Laravel Turbo Request.JS
+
+Laravel Turbo Request.JS encapsulates the logic to send by default some headers that are required by Laravel Turbo Hotwire applications like the `X-CSRF-Token`.
 
 # Install
 
 ## Asset Pipeline
 
-Install the [requestjs-rails](https://github.com/rails/requestjs-rails) gem and follow the step described there.
+Install the [requestjs-laravel turbo](https://github.com/ekrist1/requestjs.js) gem and follow the step described there.
 
 ## Webpacker/Esbuild
 
 ### npm
 ```
-npm i @rails/request.js
+npm i @ekrist1/request.js
 ```
 ### yarn
 ```shell
-yarn add @rails/request.js
+yarn add @ekrist1/request.js
 ```
 
 # How to use
