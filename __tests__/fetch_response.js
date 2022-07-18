@@ -128,7 +128,7 @@ describe('fetch response helpers', () => {
     expect(testResponse.contentType).toBe('application/json')
   })
   test('www-authentication header is accessed', () => {
-    const mockResponse = new Response(null, { status: 401, headers: new Headers({'WWW-Authenticate': 'https://localhost/login'}) })
+    const mockResponse = new Response(null, { status: 401, headers: new Headers({'Login-url': 'https://localhost/login'}) })
     const testResponse = new FetchResponse(mockResponse)
 
     expect(testResponse.authenticationURL).toBe('https://localhost/login')
