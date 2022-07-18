@@ -20,11 +20,11 @@ Install the [requestjs-laravel turbo](https://github.com/ekrist1/requestjs.js) g
 
 ### npm
 ```
-npm i @ekrist1/request.js
+npm install https://github.com/ekrist1/request.js
 ```
 ### yarn
 ```shell
-yarn add @ekrist1/request.js
+yarn add https://github.com/ekrist1/request.js
 ```
 
 # How to use
