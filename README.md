@@ -34,7 +34,7 @@ Just import the `FetchRequest` class from the package and instantiate it passing
 Example:
 
 ```js
-import { FetchRequest } from '@rails/request.js'
+import { FetchRequest } from '@laravel/request.js'
 
 ....
 
@@ -56,7 +56,7 @@ Alternatively, you can use a shorthand version for the main HTTP verbs, `get`, `
 Example:
 
 ```js
-import { get, post, put, patch, destroy } from '@rails/request.js'
+import { get, post, put, patch, destroy } from '@laravel/request.js'
 
 ...
 
@@ -124,7 +124,7 @@ Since [v7.0.0-beta.6](https://github.com/hotwired/turbo/releases/tag/v7.0.0-beta
 To authenticate fetch requests (eg. with Bearer token) you can use request interceptor. It allows pausing request invocation for fetching token and then adding it to headers:
 
 ```javascript
-import { RequestInterceptor } from '@rails/request.js'
+import { RequestInterceptor } from '@laravel/request.js'
 // ...
 
 // Set interceptor
@@ -142,7 +142,7 @@ RequestInterceptor.reset()
 Wrap the request `Promise` with your own code. Just pure and simple JavaScript like this:
 
 ```javascript
-import { FetchRequest } from "@rails/request.js"
+import { FetchRequest } from "@laravel/request.js"
 import { navigator } from "@hotwired/turbo"
 
 function showProgressBar() {
