@@ -78,7 +78,7 @@ export class FetchRequest {
   }
 
   get csrfToken () {
-    return getCookie(metaContent('csrf-param')) || metaContent('csrf-token')
+    return document.head.querySelector("[name='csrf-token']").content
   }
 
   get contentType () {
